@@ -1,21 +1,39 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Peter's Student Bio</title>
-    </head>
+<html lang="en-us">
 
-    <body>
-        <h1>Student Bio</h1>
-        <h2>Peter Walker</h2>
-        <img src="https://avatars1.githubusercontent.com/u/25408515?s=400&u=593ca9227942fb1165087d3e27dab57d8a7ecdc7&v=4" width="200px" height="200px"> 
-        <p>
-            I have been interested in web development for quite some time and finally decided to do something about it. I started the KU Coding Boot Camp on May 21st!
-        </p>
-        <h2>Contact Info</h2>
-        <ul type="round">
-            <li>Email: <a href="mail to: peteawalk@email.com">Send email to peteawalk@email.com</a></li>
-            <li>Github: <a href="https://github.com/peteawalk?tab=repositories">peteawalk</a></li>
-            <li>Portfolio: <a href="#">Coming Soon</a></li>
-        </ul>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>Peter Walker</h2>
+
+      <img id="bio-image" src="https://avatars1.githubusercontent.com/u/25408515?s=400&u=593ca9227942fb1165087d3e27dab57d8a7ecdc7&v=4" width="200px" height="200px" alt="Peter Walker">
+
+      <p>I have been interested in web development for quite some time and finally decided to do something about it. I started the KU Coding Boot Camp on May 21st!</p>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">peterpaw@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/peteawalk?tab=repositories">peteawalk</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+
 </html>
+
