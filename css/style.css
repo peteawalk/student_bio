@@ -33,6 +33,8 @@ h2 {
 
 #bio-image {
     width: 200px;
+    height: 200px;
+    /* margin-right: 20px; This is what was in class.*/
     margin: 0 25px;
 }
 
